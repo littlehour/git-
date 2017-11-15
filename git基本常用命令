@@ -61,5 +61,7 @@ Git基本常用命令如下：
    git remote –v 查看远程库的详细信息
 
    git push origin master  Git会把master分支推送到远程库对应的远程分支上 
+   
+    git log --graph --pretty=oneline --abbrev-commit 查看分支的合并情况，包括分支合并图、一行显示、提交校验码缩略显示
 
 来自：http://my.oschina.net/gsbhz/blog/337719
